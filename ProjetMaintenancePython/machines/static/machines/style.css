@@ -1,0 +1,63 @@
+#backImgBody {
+    background-size: cover;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+    margin-top:-40px;
+}
+
+.container {
+    font-family: "Ropa Sans", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color:#003745;
+}
+
+.sections {
+    background-color: #003745;
+    font-size: 13px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-style: solid;
+    border-color: #003745;
+    border-width: thin;
+
+}
+
+.inline {
+    display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.recherche {
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    font-style: italic;
+    border-width: thin;
+    border-style: solid;
+    background-color: white;
+}
+
+.note {
+    text-align: start;
+    padding-bottom: 50px;
+    padding-top: 2px;
+    padding-left: 5px;
+    border-width: thin;
+    border-style: solid;
+    background-color: white;
+}
+
+.nonePadding {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 400px;
+}

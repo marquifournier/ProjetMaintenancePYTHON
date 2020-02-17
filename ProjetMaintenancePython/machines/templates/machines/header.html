@@ -1,0 +1,51 @@
+{% load static %}
+
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'machines/style.css' %}">
+    <body id="backImgBody" style="background-image: url('/static/machines/centreIMAGE.jpg')">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <div class="logo">
+                    <a href="https://www.cegepmontpetit.ca/cta">
+                        <img width="180" height="180" src="{% static 'machines/cta.jpg' %}" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5 nonePadding">
+                <div class="inline">
+                    <p class="sections"> Nouvelles </p>
+                    <p class="sections"> Événements </p>
+                    <p class="sections"> À propos </p>
+                    <p class="sections"> Salle de presse </p>
+                    <p class="sections"> Connexion </p>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding-left: 0px">
+                <p class="recherche"> 🔎 RECHERCHE</p>
+                <p class="note"> Insérez une note</p>
+            </div>
+            <a href="https://www.google.ca/">
+                <img height="52" width="52" src="{% static 'machines/Lien.png' %}" />
+            </a>
+            <a href="https://www.facebook.com/">
+            <img height="50" width="50" src="{% static 'machines/Facebook.png' %}" />
+             </a>
+            <a href="https://www.twitter.com/">
+                <img height="50" width="50" src="{% static 'machines/Twitter.png' %}" />
+             </a>
+            <a href="https://www.instagram.com/">
+                <img height="50" width="50" src="{% static 'machines/Instagram.png' %}" />
+             </a>
+            <a href="https://www.youtube.com/">
+                <img height="50" width="50" src="{% static 'machines/Youtube.png' %}" />
+             </a>
+        </div>
+    </div>
+    </body>
+</html>
