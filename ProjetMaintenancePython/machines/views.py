@@ -9,5 +9,5 @@ def header(request):
     return HttpResponse(template.render({}, request))
 
 def tableaubord(request):
-    template = loader.get_template('machines/tableaubord.html')
+    template = loader.get_template('machines/interfaceorganisation.html')
     return HttpResponse(template.render({}, request))
