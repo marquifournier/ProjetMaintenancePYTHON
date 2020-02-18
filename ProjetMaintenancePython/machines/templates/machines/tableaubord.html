@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>CTA | Cégep Édouard-Montpetit -Tableau de bord</title>
@@ -8,7 +9,7 @@
 <body>
 {% extends "machines/header.html" %}
 {% block body %}
-    <table class="container tableaubord">
+    <table class="container">
         <thead>
         <tr>
             <th class="test">Tableau de bord</th>
@@ -19,37 +20,41 @@
         </tr>
         <thead>
     </table>
-    <table class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <thead>
-                <tr>
-                    <th colspan="6">Liste des XXXXX</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Test1</td>
-                    <td>Test2</td>
-                    <td>Test3</td>
-                </tr>
-                </tbody>
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <table width="100%">
+                    <thead>
+                    <tr>
+                        <th colspan="6">Liste des XXXXX</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Test1</td>
+                        <td>Test2</td>
+                        <td>Test3</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-5">
+                    <table width="100%">
+                    <thead>
+                    <tr>
+                        <th colspan="2">Liste des YYYYY</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Test3</td>
+                        <td>Test4</td>
+                    </tr>
+                    </tbody>
+                    </table>
             </div>
-            <div class="col-lg-5">
-                <thead>
-                <tr>
-                    <th>Liste des YYYYY</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Test3</td>
-                    <td>Test4</td>
-                </tr>
-                </tbody>
-            </div>
-        </div>
-    </table>
+                </div>
+    </div>
 {% endblock %}
 </body>
 

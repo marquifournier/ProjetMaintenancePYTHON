@@ -13,6 +13,7 @@
     margin-top: 20px;
     text-align: center;
     color:#003745;
+    overflow: hidden;
 }
 
 .sections {
@@ -66,10 +67,6 @@ th, td {
     background-color: white;
 }
 
-th:hover {
-    background-color: #003745;
-    color:white;
-}
 
 .table, tr, td, th {
     border: 1px solid #003745;
@@ -85,4 +82,3 @@ tr:first-child th {
     background-color: #003745;
     color:white;
 }
-
