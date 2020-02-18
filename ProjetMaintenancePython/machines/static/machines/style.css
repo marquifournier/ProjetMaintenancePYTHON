@@ -5,7 +5,7 @@
 .logo {
     color: white;
     text-align: center;
-    margin-top:-40px;
+    margin-top: -40px;
 }
 
 .container {
@@ -13,12 +13,12 @@
     margin-top: 20px;
     text-align: center;
     color:#003745;
-    overflow: hidden;
+    font-weight: bold;
 }
 
 .sections {
     background-color: #003745;
-    font-size: 13px;
+    font-size: 12px;
     color: white;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -27,6 +27,7 @@
     border-style: solid;
     border-color: #003745;
     border-width: thin;
+    margin-bottom:10px;
 
 }
 
@@ -67,6 +68,10 @@ th, td {
     background-color: white;
 }
 
+.menuhover:hover {
+    background-color: #003745;
+    color:white;
+}
 
 .table, tr, td, th {
     border: 1px solid #003745;
@@ -76,9 +81,15 @@ th, td {
 
 tr:first-child th {
     border-bottom: 10px solid #003745;
+    text-align: center;
 }
 
 .test {
     background-color: #003745;
     color:white;
+}
+
+a:hover {
+    color:white;
+    text-decoration: none;
 }
