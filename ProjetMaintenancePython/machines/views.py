@@ -11,3 +11,11 @@ def header(request):
 def tableaubord(request):
     template = loader.get_template('machines/interfaceorganisation.html')
     return HttpResponse(template.render({}, request))
+
+def gererEssais(request):
+    template = loader.get_template('machines/gererEssais.html')
+    return HttpResponse(template.render({}, request))
+
+def essai(request):
+    template = loader.get_template('machines/essai.html')
+    return HttpResponse(template.render({}, request))
