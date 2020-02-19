@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8369a55f-a6fe-40aa-a60c-92c7c0a6178c" name="Default Changelist" comment="Début du header du site">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="-1253">
               <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
@@ -35,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="93" column="56" lean-forward="true" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
+            <state relative-caret-position="730">
+              <caret line="62" column="84" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#form#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,6 +49,16 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/cta.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -311,26 +324,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Début du header du site" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="33" key="CommitChangelistDialog2" timestamp="1581992878451">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="765" y="33" key="CommitChangelistDialog2/0.0.1603.862@0.0.1603.862" timestamp="1581992878451" />
-    <state x="772" y="159" key="Vcs.Push.Dialog.v2" timestamp="1581958265357">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="772" y="159" key="Vcs.Push.Dialog.v2/0.0.1603.862@0.0.1603.862" timestamp="1581958265357" />
-    <state x="119" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1581993108324">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="119" y="260" key="com.intellij.ide.util.TipDialog/0.0.1603.862@0.0.1603.862" timestamp="1581993108324" />
-    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581992867648">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1603.862@0.0.1603.862" timestamp="1581992867648" />
-    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1581993484924">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1603.862@0.0.1603.862" timestamp="1581993484924" />
+    <state x="765" y="33" key="CommitChangelistDialog2" />
+    <state x="765" y="33" key="CommitChangelistDialog2/0.0.1603.862@0.0.1603.862" />
+    <state x="772" y="159" key="Vcs.Push.Dialog.v2" />
+    <state x="772" y="159" key="Vcs.Push.Dialog.v2/0.0.1603.862@0.0.1603.862" />
+    <state x="119" y="260" key="com.intellij.ide.util.TipDialog" />
+    <state x="119" y="260" key="com.intellij.ide.util.TipDialog/0.0.1603.862@0.0.1603.862" />
+    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1603.862@0.0.1603.862" />
+    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup" />
+    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1603.862@0.0.1603.862" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/gererlesessais" />
@@ -382,6 +385,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/cta.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1253">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/interfaceorganisation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -389,17 +405,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="93" column="56" lean-forward="true" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
+        <state relative-caret-position="730">
+          <caret line="62" column="84" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#form#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
