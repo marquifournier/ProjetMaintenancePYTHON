@@ -1,11 +1,12 @@
-#backImgBody {
-    background-size: cover;
+/* CLASSES OU ID DÉJA EXISTANTS MAIS MODIFIÉES DANS BOOTSTRAP OU DANS LE HTML STANDARD */
+
+a:hover {
+    color:white;
+    text-decoration: none;
 }
 
-.logo {
-    color: white;
-    text-align: center;
-    margin-top: -40px;
+body {
+    height:97.9%;
 }
 
 .logo2{
@@ -22,151 +23,9 @@
     font-weight: bold;
 }
 
-.blanc {
-    height:74.1%;
-    background-color:white;
-    border-style:solid;
-    margin-top:0;
-}
-
-html {
-    height:100%;
-}
-
-body {
-    height:97.9%;
-}
-
-.row {
-    margin-top: 20px;
-}
-
-.sections {
-    background-color: #003745;
-    font-size: 12px;
-    color: white;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 4px;
-    padding-left: 4px;
-    border-style: solid;
-    border-color: #003745;
-    border-width: thin;
-    margin-bottom:10px;
-}
-
-.inline {
-    display: inline-flex;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.recherche {
-    text-align: left;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 5px;
-    font-style: italic;
-    border-width: thin;
-    border-style: solid;
-    background-color: white;
-    width:275px;
-}
-
-.note {
-    text-align: start;
-    padding-bottom: 50px;
-    padding-top: 2px;
-    padding-left: 5px;
-    border-width: thin;
-    border-style: solid;
-    background-color: white;
-    width:275px;
-}
-
-.nonePadding {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 400px;
-}
-
-th, td {
-    background-color: white;
-}
-
-.table, tr, td, th {
-    border: 1px solid #003745;
-    padding:5px;
-    text-align: left;
-}
-
-.test {
-    background-color: #145682;
-    color:white;
-}
-
-.menu {
-    max-width: 210px;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #003745;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #145682;
-}
-
-.navbar a:hover {
-        height:72px;
-}
-
-a:hover {
-    color:white;
-    text-decoration: none;
-
-}
-
-.mainIndexBoard {
-    background-color: #003745;
-    color: white;
-    text-align: center;
-}
-
-.session {
-    margin-top: 15px;
-    font-size: 12px;
-}
-
-.test .menu .dropdown{
-  float: left;
-  overflow: hidden;
-}
-
 .dropdown {
   float: left;
   overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
 }
 
 .dropdown-content {
@@ -191,6 +50,137 @@ a:hover {
   background-color: #ddd;
 }
 
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+html {
+    height:100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #003745;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+        height:72px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #145682;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.table, tr, td, th {
+    border: 1px solid #003745;
+    padding:5px;
+    text-align: left;
+}
+
+th, td {
+    background-color: white;
+}
+
+/* CLASSES OU ID CRÉÉES POUR LE PROJET */
+
+.aucunPadding {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 400px;
+}
+
+#backImgBody {
+    background-size: cover;
+}
+
+.fondBlanc {
+    height:74.1%;
+    background-color:white;
+    border-style:solid;
+    margin-top:0;
+}
+
+.inline {
+    display: inline-flex;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.logo {
+    margin-top: -40px;
+}
+
+.mainIndexBoard {
+    background-color: #003745;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    max-width: 220px;
+}
+
+.recherche {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    font-style: italic;
+    border-width: thin;
+    border-style: solid;
+    background-color: white;
+    width:275px;
+}
+
+.sections {
+    background-color: #003745;
+    font-size: 12px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-style: solid;
+    border-color: #003745;
+    border-width: thin;
+}
+
+.selectionner {
+    background-color: #145682;
+    color:white;
+}
+
+.session {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.selectionner .menu .dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+
