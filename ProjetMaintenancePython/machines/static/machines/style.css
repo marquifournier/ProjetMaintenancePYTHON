@@ -23,6 +23,17 @@ body {
     font-weight: bold;
 }
 
+.container2 {
+    font-family: "Ropa Sans", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color:#003745;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -117,6 +128,12 @@ th, td {
     background-size: cover;
 }
 
+.essais{
+    background-color: #007a99;
+    color: white;
+    text-align: center;
+}
+
 .fondBlanc {
     height:74.1%;
     background-color:white;
@@ -140,8 +157,26 @@ th, td {
     text-align: center;
 }
 
+.machine{
+    background-color: #005266;
+    color: white;
+    text-align: center;
+}
+
+.matières{
+    background-color: #006680;
+    color: white;
+    text-align: center;
+}
+
 .menu {
     max-width: 220px;
+}
+
+.outils{
+    background-color: #003745;
+    color: white;
+    text-align: center;
 }
 
 .recherche {
