@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8369a55f-a6fe-40aa-a60c-92c7c0a6178c" name="Default Changelist" comment="Début du header du site">
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" afterDir="false" />
-    </list>
+    <list default="true" id="8369a55f-a6fe-40aa-a60c-92c7c0a6178c" name="Default Changelist" comment="Début du header du site" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="730">
@@ -49,6 +42,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/centreIMAGE.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -418,6 +416,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/centreIMAGE.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
