@@ -37,10 +37,11 @@ body {
     margin-right: 5%;
 }
 
-
 .dropdown {
   float: left;
   overflow: hidden;
+}
+
 div.dropdown-menu, a.dropdown-item {
     background-color: #145682;
 }
