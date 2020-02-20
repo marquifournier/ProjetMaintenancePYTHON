@@ -3,99 +3,117 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{% static 'machines/style.css' %}">
     <body id="backImgBody" style="background-image: url('/static/machines/centreIMAGE.jpg')">
 
-    <div class="row justify-content-center">
-        <div class="col-md-2">
-            <div class="logo2">
-                <a href="https://www.cegepmontpetit.ca/cta">
-                    <img  class="logo2" width="180" height="180" src="{% static 'machines/cta.jpg' %}" />
-                </a>
+        <div class="container2">
+            <div class="row justify-content-center">
+                <div class="col-md-2">
+                    <div class="logo2">
+                        <a href="https://www.cegepmontpetit.ca/cta">
+                            <img  class="logo2" width="180" height="180" src="{% static 'machines/cta.jpg' %}" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 nonePadding">
+                    <div class="inline">
+                        <a class="sections" href="https://www.cegepmontpetit.ca/cta/nouvelles-et-evenements">
+                            Nouvelles
+                        </a>
+                        <a class="sections" href="https://www.cegepmontpetit.ca/cta/nouvelles-et-evenements">
+                            Événements
+                        </a>
+                        <a class="sections" href="https://www.cegepmontpetit.ca/cta/a-propos-du-cta/">
+                            À propos
+                        </a>
+                        <a class="sections" href="https://www.cegepmontpetit.ca/salle-de-presse">
+                            Salle de presse
+                        </a>
+                        <a class="sections" href="https://cegepmontpetit.omnivox.ca/Login/Account/Login?ReturnUrl=%2fintr">
+                            Connexion
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-5" style="padding-left: 0px">
+                    <form>
+                        <input class="recherche" placeholder=" 🔎 RECHERCHE" type="text" id="recherche" name="recherche">
+                    </form>
+                    <br>
+                    <form>
+                        <textarea placeholder="Insérez une note" class="recherche" id="inserezNote" name="inserezNote" style="resize:none"></textarea>
+                    </form>
+                </div>
+
+                <div align="center">
+                    <a href="https://www.google.ca/">
+                        <img height="50" width="50" src="{% static 'machines/Lien.png' %}" />
+                    </a>
+                    <a href="https://www.facebook.com/">
+                    <img height="50" width="50" src="{% static 'machines/Facebook.png' %}" />
+                     </a>
+                    <a href="https://www.twitter.com/">
+                        <img height="50" width="50" src="{% static 'machines/Twitter.png' %}" />
+                     </a>
+                    <a href="https://www.instagram.com/">
+                        <img height="50" width="50" src="{% static 'machines/Instagram.png' %}" />
+                     </a>
+                    <a href="https://www.youtube.com/" style="padding-left: 8px;">
+                        <img height="50" width="50" src="{% static 'machines/Youtube.png' %}" />
+                     </a>
+
+                    <table align="center" class="session">
+                        <tr>
+                            <th class="mainIndexBoard">Session: </th>
+                            <td>1757006</td>
+                        </tr>
+                        <tr>
+                            <th class="mainIndexBoard">Nom de la personne: </th>
+                            <td>Marc-Antoine Fournier</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
 
-        <div class="col-md-4 nonePadding">
-            <div class="inline">
-                <a class="sections" href="https://www.cegepmontpetit.ca/cta/nouvelles-et-evenements">
-                    Nouvelles
-                </a>
-                <a class="sections" href="https://www.cegepmontpetit.ca/cta/nouvelles-et-evenements">
-                    Événements
-                </a>
-                <a class="sections" href="https://www.cegepmontpetit.ca/cta/a-propos-du-cta/">
-                    À propos
-                </a>
-                <a class="sections" href="https://www.cegepmontpetit.ca/salle-de-presse">
-                    Salle de presse
-                </a>
-                <a class="sections" href="https://cegepmontpetit.omnivox.ca/Login/Account/Login?ReturnUrl=%2fintr">
-                    Connexion
-                </a>
+        <div class="container2 navbar navbar-expand-sm" style="padding-left: 0px;padding-right: 0px;">
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <a class="nav-link dropdown-toggle menu" data-toggle="dropdown">Interface avec les organisations</a>
+                    <div class="dropdown-menu">
+                        <a href="http://127.0.0.1:8000" class="dropdown-item">Tableau de bord</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Gérer les captations des données</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Définir les paramètres</a>
+                    </div>
+                </ul>
+
+                <ul class="nav navbar-nav">
+                    <a class="nav-link dropdown-toggle selectionner menu" data-toggle="dropdown">Gérer les essais<br><br></a>
+                    <div class="dropdown-menu" style="left: 235px;">
+                        <a href="#" class="dropdown-item" style="{margin-top: 800px;}">Tableau de bord</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="http://127.0.0.1:8000/gererEssais" class="dropdown-item">Gérer les essais</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Gérer un essai</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Gérer les tests</a>
+                    </div>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <a class="menu">Modélisation numérique<br><br></a>
+                    <a class="menu">Modélisation avec les technologies de l'IA</a>
+                    <a class="menu">Base de connaissance<br><br></a>
+                    <a class="menu">Tracabilité<br><br></a>
+                </ul>
             </div>
         </div>
-
-        <div class="col-md-3" style="padding-left: 0px">
-            <form>
-                <input class="recherche" placeholder=" 🔎 RECHERCHE" type="text" id="recherche" name="recherche">
-            </form>
-            <br>
-            <form>
-                <textarea placeholder="Insérez une note" class="recherche" id="inserezNote" name="inserezNote" style="resize:none"></textarea>
-            </form>
-        </div>
-
-        <div align="center">
-            <a href="https://www.google.ca/">
-                <img height="52" width="52" src="{% static 'machines/Lien.png' %}" />
-            </a>
-            <a href="https://www.facebook.com/">
-            <img height="50" width="50" src="{% static 'machines/Facebook.png' %}" />
-             </a>
-            <a href="https://www.twitter.com/">
-                <img height="50" width="50" src="{% static 'machines/Twitter.png' %}" />
-             </a>
-            <a href="https://www.instagram.com/">
-                <img height="50" width="50" src="{% static 'machines/Instagram.png' %}" />
-             </a>
-            <a href="https://www.youtube.com/">
-                <img height="50" width="50" src="{% static 'machines/Youtube.png' %}" />
-             </a>
-
-            <table align="center" class="session">
-                <tr>
-                    <th class="mainIndexBoard">Session: </th>
-                    <td>1757006</td>
-                </tr>
-                <tr>
-                    <th class="mainIndexBoard">Nom de la personne: </th>
-                    <td>Marc-Antoine Fournier</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-    <div class="container2 navbar" style="margin-bottom: -8px;">
-        <div class="test menu dropdown">
-            <button class="dropbtn">Interface avec les organisations
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
-        </div>
-
-        <a href = "http://127.0.0.1:8000/gererEssais" class="menu">Gérer les essais</a>
-        <a class="menu">Modélisation numérique</a>
-        <a class="menu">Modélisation avec les technologies de l'IA</a>
-        <a class="menu">Base de connaissance</a>
-        <a class="menu">Tracabilité</a>
-    </div>
     </body>
     {% block body %}
     {% endblock %}
