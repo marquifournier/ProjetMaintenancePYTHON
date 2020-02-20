@@ -13,6 +13,12 @@ body {
     height:97.9%;
 }
 
+.logo2{
+    color:white;
+    text-align: center;
+    margin-left: 10px;
+}
+
 .container {
     font-family: "Ropa Sans", sans-serif;
     margin-top: 20px;
@@ -21,16 +27,26 @@ body {
     font-weight: bold;
 }
 
+.container2 {
+    font-family: "Ropa Sans", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color:#003745;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.dropdown {
+  float: left;
+}
+
 div.dropdown-menu, a.dropdown-item {
     background-color: #145682;
 }
 
 html {
     height:100%;
-}
-
-.nav: hover{
-    height: 72px;
 }
 
 .navbar {
@@ -76,13 +92,19 @@ th, td {
     background-size: cover;
 }
 
+.essais{
+    background-color: #007a99;
+    color: white;
+    text-align: center;
+}
+
 .dropdownColor: hover {
     color: black;
     background: black;
 }
 
 .fondBlanc {
-    height:74.1%;
+    height:100%;
     background-color:white;
     border-style:solid;
     margin-top:0;
@@ -104,8 +126,26 @@ th, td {
     text-align: center;
 }
 
+.machine{
+    background-color: #005266;
+    color: white;
+    text-align: center;
+}
+
+.matières{
+    background-color: #006680;
+    color: white;
+    text-align: center;
+}
+
 .menu {
     max-width: 220px;
+}
+
+.outils{
+    background-color: #003745;
+    color: white;
+    text-align: center;
 }
 
 .menu: hover {
@@ -115,12 +155,11 @@ th, td {
 .recherche {
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 5px;
     font-style: italic;
     border-width: thin;
     border-style: solid;
     background-color: white;
-    width:275px;
+    width:100%;
 }
 
 .sections {
@@ -151,4 +190,9 @@ th, td {
   overflow: hidden;
 }
 
+.tableauessais{
+    table-layout: initial;
+    width: 100% ;
+    margin-left: 60px
+}
 
