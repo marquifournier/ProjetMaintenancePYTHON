@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8369a55f-a6fe-40aa-a60c-92c7c0a6178c" name="Default Changelist" comment="Début du header du site">
-      <change beforePath="$PROJECT_DIR$/.idea/ProjetMaintenancePYTHON.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetMaintenancePYTHON.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/ProjetMaintenancePython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/ProjetMaintenancePython/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/ProjetMaintenancePython/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/ProjetMaintenancePython/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/interfaceorganisation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/interfaceorganisation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="8369a55f-a6fe-40aa-a60c-92c7c0a6178c" name="Default Changelist" comment="Début du header du site" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2827">
-              <caret line="175" column="2" lean-forward="true" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="14" />
+            <state relative-caret-position="-1253">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -33,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/interfaceorganisation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="323">
               <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
@@ -42,13 +31,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="730">
+              <caret line="62" column="84" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#form#1;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#form#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/centreIMAGE.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/cta.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/essai.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -111,14 +126,14 @@
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/tableaubord.html" />
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/gererlesessais.html" />
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/gererEssais.html" />
-        <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/essai.html" />
-        <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" />
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/interfaceorganisation.html" />
-        <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" />
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/urls.py" />
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/views.py" />
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/ProjetMaintenancePython/urls.py" />
         <option value="$PROJECT_DIR$/ProjetMaintenancePython/ProjetMaintenancePython/settings.py" />
+        <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/essai.html" />
+        <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" />
+        <option value="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html" />
       </list>
     </option>
   </component>
@@ -281,7 +296,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
@@ -307,26 +322,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Début du header du site" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="33" key="CommitChangelistDialog2" timestamp="1581992878451">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="765" y="33" key="CommitChangelistDialog2/0.0.1603.862@0.0.1603.862" timestamp="1581992878451" />
-    <state x="772" y="159" key="Vcs.Push.Dialog.v2" timestamp="1581958265357">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="772" y="159" key="Vcs.Push.Dialog.v2/0.0.1603.862@0.0.1603.862" timestamp="1581958265357" />
-    <state x="119" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1581993108324">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="119" y="260" key="com.intellij.ide.util.TipDialog/0.0.1603.862@0.0.1603.862" timestamp="1581993108324" />
-    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581992867648">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1603.862@0.0.1603.862" timestamp="1581992867648" />
-    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1581993484924">
-      <screen x="0" y="0" width="1603" height="862" />
-    </state>
-    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1603.862@0.0.1603.862" timestamp="1581993484924" />
+    <state x="765" y="33" key="CommitChangelistDialog2" />
+    <state x="765" y="33" key="CommitChangelistDialog2/0.0.1603.862@0.0.1603.862" />
+    <state x="772" y="159" key="Vcs.Push.Dialog.v2" />
+    <state x="772" y="159" key="Vcs.Push.Dialog.v2/0.0.1603.862@0.0.1603.862" />
+    <state x="119" y="260" key="com.intellij.ide.util.TipDialog" />
+    <state x="119" y="260" key="com.intellij.ide.util.TipDialog/0.0.1603.862@0.0.1603.862" />
+    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="996" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1603.862@0.0.1603.862" />
+    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup" />
+    <state x="843" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1603.862@0.0.1603.862" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/gererlesessais" />
@@ -334,13 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/essai.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -378,31 +376,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html">
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/essai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#form#1;n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/cta.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/Lien.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1253">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/interfaceorganisation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="323">
           <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css">
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2827">
-          <caret line="175" column="2" lean-forward="true" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="14" />
+        <state relative-caret-position="730">
+          <caret line="62" column="84" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/centreIMAGE.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
