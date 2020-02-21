@@ -6,6 +6,148 @@
     <title>CTA | Cégep Édouard-Montpetit -Tableau de bord</title>
 {% extends "machines/header.html" %}
 {% block body %}
+    <div class="container fondBlanc">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row bordure-gauche">
+                    <h4 class="titre-categorie">Caractéristique</h4>
+                    <div class="col-md-4">
+                        <br>
+                        Date création :<br>
+                        Dernière MAJ :<br>
+                        Lancer le : <br><br>
+                        Type de test : <br>
+                        Matière : <br>
+                        Opération : <br>
+                        Machine outil : <br>
+                    </div>
+                    <div class="col-md-4">
+                        <br>
+                        Longueur de coupe : <br>
+                        Profondeur de coupe : <br>
+                        Profondeur axial : <br>
+                        Profondeur radial : <br><br>
+                        Fréquence d'échantillonnage :
+                    </div>
+                    <div class="col-md-3">
+                        Étalon de mesure
+                    </div>
+                    <div class="col-md-1">
+                        Détail <br>
+                        ... <br>
+                        ... <br>
+                        ...
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="row bordure-droit">
+                    <h4 class="titre-categorie">Tracabilité</h4>
+                    <div class="col-md-4">
+                        <br>
+                        Date création : <br>
+                        Dernière MAJ : <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <h4 class="titre-categorie-ext">Niveaux des facteurs</h4>
+                <table class="table table-bordered tableau-alignement">
+                    <thead>
+                        <tr>
+                            <th colspan="4" scope="colgroup">Condition de coupe</th>
+                            <th colspan="3" scope="colgroup">Outil</th>
+                            <th rowspan="3">Action</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" scope="colgroup">Vitesse de coupe</th>
+                            <th colspan="2" scope="colgroup">Avancée</th>
+                            <th rowspan="2">Nom</th>
+                            <th rowspan="2">Dia(in)</th>
+                            <th rowspan="2">Long sortie outil</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">SFM</th>
+                            <th scope="col">m/min</th>
+                            <th scope="col">in/th</th>
+                            <th scope="col">mm/th</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                        </tr>
+                        <tr>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                        </tr>
+                        <tr>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-5">
+                <h4 class="titre-categorie-ext">Modèle</h4>
+                <table class="table table-bordered tableau-alignement-droit">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nom</th>
+                            <th scope="col">Fabricant</th>
+                            <th scope="col">Type de Machine</th>
+                            <th scope="col">Modèle</th>
+                            <th scope="col">Numéro Série</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                        </tr>
+                        <tr>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                        </tr>
+                        <tr>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                            <td>XXXXX</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 {% endblock %}
 </body>
 </html>

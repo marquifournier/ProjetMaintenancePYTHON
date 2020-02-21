@@ -5,7 +5,7 @@ a:hover {
     text-decoration: none;
 }
 
-a.dropdown-item: hover {
+a.dropdown-item:hover {
     height:0px;
 }
 
@@ -83,6 +83,7 @@ html {
 
 th, td {
     background-color: white;
+    text-align: center;
 }
 
 /* CLASSES OU ID CRÉÉES POUR LE PROJET */
@@ -103,7 +104,7 @@ th, td {
     text-align: center;
 }
 
-.dropdownColor: hover {
+.dropdownColor:hover {
     color: black;
     background: black;
 }
@@ -153,7 +154,7 @@ th, td {
     text-align: center;
 }
 
-.menu: hover {
+.menu:hover {
     background-color: #145682;
 }
 
@@ -201,3 +202,58 @@ th, td {
     margin-left: 60px
 }
 
+.bordure-gauche{
+    color: white;
+    height: 100%;
+    border-style: solid;
+    border-color: black;
+    background-color: #003745;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.bordure-droit {
+    color: white;
+    height: 100%;
+    border-style: solid;
+    border-color: black;
+    background-color: #003745;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.titre-categorie {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tableau-alignement {
+    margin-left: 18px;
+}
+
+tableau-alignement-droit {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.titre-categorie-ext {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
