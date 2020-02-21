@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8369a55f-a6fe-40aa-a60c-92c7c0a6178c" name="Default Changelist" comment="Début du header du site">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/static/machines/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/essai.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetMaintenancePython/machines/templates/machines/essai.html" afterDir="false" />
-    </list>
+    <list default="true" id="8369a55f-a6fe-40aa-a60c-92c7c0a6178c" name="Default Changelist" comment="Début du header du site" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +96,7 @@
       <workItem from="1581993105110" duration="1086000" />
       <workItem from="1582223480504" duration="3746000" />
       <workItem from="1582250823423" duration="7616000" />
-      <workItem from="1582291487363" duration="1390000" />
+      <workItem from="1582291487363" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="Début du header du site">
       <created>1581958258863</created>
