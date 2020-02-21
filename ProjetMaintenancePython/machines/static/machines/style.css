@@ -76,6 +76,11 @@ html {
     text-align: left;
 }
 
+.footerDonnéesEssais{
+    text-align: center;
+    font-weight: normal;
+}
+
 th, td {
     background-color: white;
     text-align: center;
