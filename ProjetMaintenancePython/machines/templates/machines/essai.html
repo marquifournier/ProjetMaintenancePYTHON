@@ -76,36 +76,18 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                        </tr>
-                        <tr>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                        </tr>
-                        <tr>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                        </tr>
+                        {% for i in essais %}
+                            <tr>
+                                <td>{{ i.sfm }}</td>
+                                <td>{{ i.m_min }}</td>
+                                <td>{{ i.in_th }}</td>
+                                <td>{{ i.mm_th }}</td>
+                                <td>{{ i.nom }}</td>
+                                <td>{{ i.dia_in }}</td>
+                                <td>{{ i.longueur_sortie_outil }}</td>
+                                <td>{{ i.action }}</td>
+                            </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>
@@ -122,27 +104,15 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                        </tr>
-                        <tr>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                        </tr>
-                        <tr>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                            <td>XXXXX</td>
-                        </tr>
+                        {% for i in modèles %}
+                            <tr>
+                                <td>{{ i.nom }}</td>
+                                <td>{{ i.fabricant }}</td>
+                                <td>{{ i.type_machine }}</td>
+                                <td>{{ i.modèle }}</td>
+                                <td>{{ i.num_série }}</td>
+                            </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>

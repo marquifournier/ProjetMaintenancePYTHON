@@ -29,55 +29,34 @@
                             <td>Avancée <input type="button" value="-"></td>
                             <td>Alimentation de coupe <input type="button" value="-"></td>
                             <td>Temps de coupe <input type="button" value="-"></td>
-                            <td>XXXXXX <input type="button" value="-"></td>
+                            <td>Nom matière <input type="button" value="-"></td>
                             <td>Type machine <input type="button" value="-"></td>
                             <td>Nom <input type="button" value="-"></td>
                             <td>Fabricant <input type="button" value="-"></td>
                             <td>Modèle <input type="button" value="-"></td>
-                            <td>XXXXXX <input type="button" value="-"></td>
-                            <td>XXXXXX <input type="button" value="-"></td>
-                            <td>XXXXXX <input type="button" value="-"></td>
+                            <td>Nom outil <input type="button" value="-"></td>
                         </tr>
                     </tbody>
                     <tfoot class="footerDonnéesEssais">
+                    {% for i in essais %}
                         <tr>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
+                            <td>{{ i.ordre_essais}}</td>
+                            <td>{{ i.état }}</td>
+                            <td>{{ i.date }}</td>
+                            <td>{{ i.vitesse }}</td>
+                            <td>{{ i.vitesse_coupe }}</td>
+                            <td>{{ i.rpm }}</td>
+                            <td>{{ i.avancée }}</td>
+                            <td>{{ i.alimentation_coupe }}</td>
+                            <td>{{ i.temps_coupe }}</td>
+                            <td>{{ i.nom_matière }}</td>
+                            <td>{{ i.type_machine }}</td>
+                            <td>{{ i.nom_machine }}</td>
+                            <td>{{ i.fabricant }}</td>
+                            <td>{{ i.modèle }}</td>
+                            <td>{{ i.nom_outil }}</td>
                         </tr>
-                        <tr>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                            <td>XXXXXXX</td>
-                        </tr>
+                    {% endfor %}
                     </tfoot>
                 </table>
             </div>
